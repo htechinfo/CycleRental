@@ -1,0 +1,18 @@
+package com.assesment.cycle.exception;
+
+public class CustomerNotFoundException extends RuntimeException {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1179488464115180070L;
+	
+	public CustomerNotFoundException(String message) {
+		super(message);
+	}
+	
+	public CustomerNotFoundException() {
+		super("Customer not found for provided criteria.");
+	}
+
+}

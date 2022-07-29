@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "cron.report.generation.expression",
+  "type": "java.lang.String",
+  "description": "A description for 'cron.report.generation.expression'"
+}]}
